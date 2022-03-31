@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="formContainer">
+    <h1>Enquery Form</h1>
+    <form class="form-control">
+      <label for="name" class="input-group-text"
+        >Student Name: <input type="text" id="name" [(ngModel)]="n" /></label
+      >{{ n }}
+      <label for="mail" class="input-group-text"
+        >MailId: <input type="text" id="mail"
+      /></label>
+      <label for="mobile" class="input-group-text"
+        >Mobile Number: <input type="number" id="mobile"
+      /></label>
+      <label for="age" class="input-group-text"
+        >Age: <input type="number" id="age"
+      /></label>
+      <label for="course" class="input-group-text"
+        >Course Name: <input type="text" id="course"
+      /></label>
+      <label for="fees" class="input-group-text"
+        >Fees: <input type="number" id="fees" />/Rs.</label
+      >
+      <label for="joingDate" class="input-group-text"
+        >Joing Date: <input type="date" id="joingDate"
+      /></label>
+      <button class="btn btn-dark" (click)="call()">Submit</button>
+    </form>
+  </div>
+  <div class="certificate">
+    <h1>CERTIFICATE</h1>
+    <div id="Details">
+      <label
+        >Name:
+        <span></span>
+      </label>
+      <label>MailId: <span></span></label>
+      <label>Mobile: <span></span></label>
+      <label>Age: <span></span></label>
+      <label>Course: <span></span></label>
+      <label>Fees: <span></span></label>
+      <label>joingDate: <span></span></label>
+    </div>
+  </div>
+</div>

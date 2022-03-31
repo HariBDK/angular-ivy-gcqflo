@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.formContainer {
+  width: 450px;
+  text-align: center;
+}
+label {
+  margin: 10px;
+  margin-top: 28px;
+}
+input {
+  border: none;
+  border-bottom: solid black 1px;
+  background-color: transparent;
+}
+.certificate {
+  width: 600px;
+  height: 550px;
+  background-size: cover;
+  border: solid black 2px;
+  margin-top: 50px;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+  border-radius: 25px;
+}
+.certificate h1 {
+  font-style: bold;
+  color: gold;
+  filter: drop-shadow(5px 5px 3px black);
+}
+#Details {
+  float: left;
+}
+#Details label {
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(5px 5px 3px rgb(78, 78, 78));
+  font-weight: 700;
+  display: block;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+#Details span {
+  color: white;
+}
